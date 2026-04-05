@@ -30,7 +30,7 @@ const imgHtml = images.map(insert).join("");
 
 function insert(img) {
   return `<li class="img">
-      <img src="${img.url}" alt=${img.alt}" width="360" height="300"/>
+      <img src="${img.url}" alt="${img.alt}" width="360" height="300"/>
     </li>`;
 }
 

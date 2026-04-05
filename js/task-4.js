@@ -10,6 +10,7 @@ function logIn(event) {
 
   if (email.value.trim() === "" || password.value.trim() === "") {
     alert("All form fields must be filled in");
+    return;
   } else {
     console.log({
       [email.name]: email.value.trim(),
